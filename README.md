@@ -1,5 +1,8 @@
 # 📂 Atividade Prática: Baseline e Gerência de Configuração
 
+![Demo da aplicação](demo.jpg)
+
+
 ## Histórico da Evolução da Configuração
 *   **v1.0** → Baseline inicial aprovada
 *   **RFC-001** → Solicitação de mudança para atualização do banco de dados
@@ -31,5 +34,5 @@
 
 ---
 
-## 🚀 Pergunta Final
+## Pergunta Final
 A baseline é fundamental para uma equipe DevOps pois funciona como a "fonte da verdade" do sistema, garantindo que todos saibam exatamente quais versões e configurações estão estáveis. Quando alterações ocorrem sem controle, surgem problemas como o *Configuration Drift*, falhas em cascata (como erros no banco afetando a aplicação), perda de rastreabilidade de quem fez o quê e a impossibilidade de realizar um *rollback* seguro em caso de incidentes.
