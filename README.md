@@ -63,7 +63,13 @@ A configuração registrada nesta baseline foi validada e aprovada pela equipe t
 
 A **Baseline v1.0** representa, portanto, o estado oficial do Sistema de Pedidos antes da alteração da versão do MySQL.
 
-## Desafio 2 ?
+## Desafio 2 – Mudança não autorizada
+
+1. **A baseline foi alterada? Por quê?** Não. A baseline não foi alterada porque ela representa um conjunto definido e aprovado de Itens de Configuração. O que foi alterado foi o servidor de produção real, gerando divergência.
+2. **Qual Item de Configuração (IC) foi modificado?** O Banco de dados (atualizado para MySQL 9.0).
+3. **Essa alteração deveria ter sido realizada diretamente em produção?** Não.
+4. **Qual processo deveria ter sido executado antes da alteração?** O fluxo formal de mudança: Solicitar → Avaliar impacto → Aprovar/Rejeitar → Implementar/Testar → Verificar/Encerrar.
+5. **O que deve acontecer com a baseline após uma mudança aprovada?** Deve ser registrada a evolução, gerando um novo documento de baseline (ex: v1.1) contendo a nova configuração aprovada.
 
 ## Desafio 3 – Criar uma RFC
 
